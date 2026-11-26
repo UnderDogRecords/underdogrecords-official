@@ -125,6 +125,19 @@
   .news-date{color:var(--gold);font-size:13.5px;font-weight:700;letter-spacing:.1em}
   .news-card h3{font-size:clamp(19px,3vw,24px);margin:8px 0 12px}
   .news-card p{color:var(--text-2);margin-bottom:20px;max-width:760px}
+  .news-card + .news-card{margin-top:16px}
+
+  /* Video */
+  .video-block{margin-top:28px}
+  .video-title{font-size:20px;margin-bottom:12px}
+  .video-frame{position:relative;aspect-ratio:16/9;background:#000;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+  /* Shop items */
+  .shop-item{margin-top:20px;background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  .shop-item h3{font-size:18px;margin-bottom:4px}
+  .shop-item p{color:var(--text-2);font-size:14.5px}
+  .shop-item .btn{margin-left:auto;flex-shrink:0}
 
   /* Shop */
   .shop-grid{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:28px;align-items:start}
@@ -171,6 +184,7 @@
     .track-month{flex-basis:40px;font-size:15px}
     .track-title{font-size:15px}
     .news-card{padding:22px 20px}
+    .shop-item .btn{margin-left:0}
     .contact-item .label{flex-basis:70px}
   }
   @media (prefers-reduced-motion:reduce){
@@ -347,6 +361,22 @@
         <div class="track"><span class="track-month">11月</span><div class="track-info"><p class="track-artist">ワンダくん</p><p class="track-title">『ワンだ！Wonderful World』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/mRdSHcYV" target="_blank" rel="noopener noreferrer">聴く</a></div>
         <div class="track"><span class="track-month">12月</span><div class="track-info"><p class="track-artist">全員集合</p><p class="track-title">『Snowy Fairground』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/48g3hTRy" target="_blank" rel="noopener noreferrer">聴く</a></div>
       </div>
+      <h3 class="sub-head">ジャケ写版 ― 12曲</h3>
+      <p class="lead" style="margin-bottom:20px">2027年卓上カレンダー『耳カレンダー』ジャケ写版の各月に収録された12曲。各月のジャケットのQRコードからも、その月の曲が聴けます。各曲はLinkCoreから聴けます。</p>
+      <div class="tracklist">
+        <div class="track"><span class="track-month">1月</span><div class="track-info"><p class="track-title">『それでも秒針は進む。-Life goes on-』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/V2CnHmdN" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">2月</span><div class="track-info"><p class="track-title">『２月の海ってめっちゃ寒いのね』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/YrBHuC5e" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">3月</span><div class="track-info"><p class="track-title">『彩花』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/GxxH362u" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">4月</span><div class="track-info"><p class="track-title">『小指の恋文』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/HXb9p3Ve" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">5月</span><div class="track-info"><p class="track-title">『浄花』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/df5Zsdtr" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">6月</span><div class="track-info"><p class="track-title">『土砂降りのスナフキン』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/Ue6BnTB8" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">7月</span><div class="track-info"><p class="track-title">『白夜』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/RfzgsYG6" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">8月</span><div class="track-info"><p class="track-title">『Cougar (Ura-Ja)』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/7s796NYz" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">9月</span><div class="track-info"><p class="track-title">『風の輪舞曲』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/q0CEQXsQ" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">10月</span><div class="track-info"><p class="track-title">『Cutie』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/m8DvBn42" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">11月</span><div class="track-info"><p class="track-title">『モミの木色のローレル』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/MF91V0rg" target="_blank" rel="noopener noreferrer">聴く</a></div>
+        <div class="track"><span class="track-month">12月</span><div class="track-info"><p class="track-title">『Snowy Fairground』</p></div><a class="btn btn-gold btn-sm" href="https://linkco.re/48g3hTRy" target="_blank" rel="noopener noreferrer">聴く</a></div>
+      </div>
       <div class="release-extra">
         <div class="extra-card">
           <h3>EP『イマ』</h3>
@@ -375,6 +405,18 @@
         <p>『👂️耳彼👂️』― 耳に彼等の歌が届くカレンダー。各月のページのQRコードを読み取ると、その月のアーティストの代表曲が聴けます。卓上カレンダー ¥2,129（税込）。</p>
         <a class="btn btn-gold" href="https://suzuri.jp/UnderDogRecords/21394703/desk-calendar/2027/white" target="_blank" rel="noopener noreferrer">購入ページへ</a>
       </article>
+      <article class="news-card">
+        <p class="news-date">2026.11.26</p>
+        <h3>2027年卓上カレンダー『👂️耳カレンダー👂️』ジャケ写版 発売</h3>
+        <p>『👂️耳彼👂️』― 耳に彼等の歌が届くカレンダー。各月のジャケットのQRコードを読み取ると、その月の曲が聴けます。卓上カレンダー ¥2,129（税込）。</p>
+        <a class="btn btn-gold" href="https://suzuri.jp/UnderDogRecords/21388552/desk-calendar/2027/white" target="_blank" rel="noopener noreferrer">購入ページへ</a>
+      </article>
+      <div class="video-block">
+        <h3 class="video-title">紹介動画</h3>
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/GiGCMhkFiK0" title="『👂️耳カレンダー👂️』紹介動画（ナレーション付き）" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -391,6 +433,13 @@
           <p>公式グッズはSUZURI公式ショップにて販売中。</p>
           <a class="btn btn-gold" href="https://suzuri.jp/UnderDogRecords" target="_blank" rel="noopener noreferrer">SUZURI公式ショップへ</a>
         </div>
+      </div>
+      <div class="shop-item">
+        <div>
+          <h3>UDRロゴ マグカップ</h3>
+          <p>公式ロゴを左右両サイドにプリントしたマグカップ。¥2,376（税込）。</p>
+        </div>
+        <a class="btn btn-gold" href="https://suzuri.jp/UnderDogRecords/21381507/mug/m/white" target="_blank" rel="noopener noreferrer">購入ページへ</a>
       </div>
     </div>
   </section>
